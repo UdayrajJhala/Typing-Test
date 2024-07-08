@@ -64,10 +64,9 @@ body {
 }
 
 .currentLetter {
-    text-decoration: underline;
+    border-bottom: 1px solid white;
+    bottom: 3px;
 }
-
-
 
 .correct {
     color: green;
