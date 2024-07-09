@@ -34,6 +34,7 @@ function start() {
   add(document.querySelector(".letter"), "currentLetter");
 
   document.addEventListener("keydown", (e) => {
+    if (over) return;
     const key = e.key;
     const currentWord = document.querySelector(".word.currentWord");
     const currentLetter = document.querySelector(".letter.currentLetter");
@@ -163,8 +164,10 @@ function endGame() {
   over = true;
 }
 
-newGame();
+
 
 document.querySelector(".restart-btn").addEventListener("click", (e) => {
   location.reload();
 });
+
+newGame();
