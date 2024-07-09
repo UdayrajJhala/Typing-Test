@@ -1,7 +1,7 @@
 
 # Typing Test
 
-A minimalistic typing test game made using javascript, HTML and CSS.
+A minimalistic typing speed game made using javascript, HTML and CSS.
 
 ## Live
 
